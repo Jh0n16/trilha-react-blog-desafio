@@ -33,10 +33,10 @@ export default function Index({ posts, globalData }) {
                       {post.created_at}
                     </p>
                   )}
-                  <h2 className="text-2xl md:text-3xl">{post.title}</h2>
-                  {post.description && (
+                  <h2 className="text-2xl md:text-3xl">{post.titulo}</h2>
+                  {post.descricao && (
                     <p className="mt-3 text-lg opacity-60">
-                      {post.description}
+                      {post.descricao}
                     </p>
                   )}
                   <ArrowIcon className="mt-4" />
